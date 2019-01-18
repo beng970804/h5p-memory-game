@@ -155,10 +155,11 @@
   -ms-transform: scale(0,1.1);
 }
 .h5p-memory-game .h5p-memory-card.h5p-matched {
-  opacity: 0.3;
+  opacity: 1.0 !important; 
+  filter: none !important;
 }
 .h5p-memory-game .h5p-memory-card.h5p-matched img {
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 
 .h5p-memory-game .h5p-feedback {
